@@ -10,6 +10,7 @@ Docker repository: https://hub.docker.com/r/iqan/aspnetcore-webapi/
 
 ### To Run this app
 ` docker run --name webapi1 -p 80:80 iqan/aspnetcore-webapi `
+Browse: http://localhost:80/api/values
 
 ### To Stop the app
 ` Ctrl + C `
@@ -26,3 +27,4 @@ Docker repository: https://hub.docker.com/r/iqan/aspnetcore-webapi/
 ` docker build -t <any-name> . `
 - Run thi app
 ` docker run --name <any-name> -p 80:80 <name-given-above> `
+Browse: http://localhost:80/api/values
